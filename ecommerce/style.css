@@ -1,0 +1,67 @@
+*
+    body {
+            background-color: #0c0c0cc4; /* Light grey background for the entire page */
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover; /* Ensures images cover the area without distortion */   
+        }
+        .order-summary {
+            margin-top: 20px;
+            border: 2px solid #007bff; /* Adding border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px; /* Padding for better spacing */
+            background-color: #fcd88b; /* Light background color */
+        }
+        .order-button {
+            margin-top: 20px;
+            background-color: #28a745; /* Green button */
+            color: white; /* White text */
+            font-family: Arial, sans-serif;
+        }
+        .table th, .table td {
+            border: 1px solid #000000; /* Table border */
+            font-family: Arial, sans-serif;
+        }
+        .table th {
+            background-color: #007bff; /* Header background color */
+            color: white; /* Header text color */
+        }
+        nav {
+            background-color: #343a40; /* Dark navbar background */
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important; /* White text for navbar */
+        }
+        .nav-link:hover {
+            color: #00bb09 !important; /* Yellow text on hover */
+        }
+        footer {
+            background-color: #343a40; /* Dark footer background */
+            color: white; /* White text for footer */
+            text-align: center;
+            padding: 10px 0;
+            font-family: Arial, sans-serif;
+        }
+        #contact {
+            padding: 80px 20px; 
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        section {
+            padding: 40px 20px; /* Added padding for sections */
+            background-color: #ffca8e; /* White background for sections */
+            border-radius: 10px; /* Rounded corners for sections */
+            margin: 20px 0; /* Margin between sections */
+            text-align: center;
+        }
+        h2, h4 {
+            color: #007bff; /* Consistent color for headings */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .modal img {
+            width: 100%;
+            height: auto;
+        }
